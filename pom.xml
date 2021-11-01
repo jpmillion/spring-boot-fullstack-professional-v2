@@ -207,6 +207,7 @@
 						<configuration>
 							<nodeVersion>v14.18.1</nodeVersion>
 							<workingDirectory>src/frontend</workingDirectory>
+							<installDirectory>target</installDirectory>
 						</configuration>
 						<executions>
 							<execution>
