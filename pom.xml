@@ -211,20 +211,6 @@
 						</configuration>
 						<executions>
 							<execution>
-								<id>webpack build</id>
-								<goals>
-									<goal>webpack</goal>
-								</goals>
-
-								<!-- optional: the default phase is "generate-resources" -->
-								<phase>generate-resources</phase>
-
-								<configuration>
-									<!-- optional: if not specified, it will run webpack's default build (and you can remove this whole <configuration> section.) -->
-									<arguments>-p</arguments>
-								</configuration>
-							</execution>
-							<execution>
 								<id>install node and npm</id>
 								<goals>
 									<goal>install-node-and-npm</goal>
