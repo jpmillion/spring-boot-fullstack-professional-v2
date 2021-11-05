@@ -180,7 +180,7 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By MillionDollarCode</Footer>
+            <Footer style={{textAlign: 'center'}}>By Million</Footer>
         </Layout>
     </Layout>
 }
