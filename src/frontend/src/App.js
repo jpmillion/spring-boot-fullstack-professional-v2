@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import {deleteStudent, getAllStudents} from "./client";
+import {deleteStudent, getAllStudents} from "./Client";
 import {
     Layout,
     Menu,
